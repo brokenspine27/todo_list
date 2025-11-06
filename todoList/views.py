@@ -1,13 +1,10 @@
-from django.shortcuts import render
-from .models import Tarea
-
 # Create your views here.
 
 from django.shortcuts import render
 from .models import Tarea
 from .forms import TareaForm
 
-def home(request):
+def saludar(request):
     if request.method == "POST":
         form = TareaForm(request.POST)
         print("------- FORMULARIO CON DATOS ----------")
