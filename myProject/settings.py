@@ -132,3 +132,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+#clave por perdida del .env
+
+#SECRET_KEY='django-insecure-8j2z9j!%e*vw23+o-ndwl*abld+3j-^&o*$c++pq$7qw@2@x)&'
